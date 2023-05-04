@@ -22,3 +22,6 @@ type(df)
 type(df[0])
 
 df=df[0].copy()
+
+df
+
