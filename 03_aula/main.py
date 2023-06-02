@@ -2,9 +2,13 @@
 # import requests
 import requests
 
-# %%
+#%%
+url = 'http://www.google.com'
 
-x = [12, 35,
-     45, 67]
-# %%
+ret = requests.get(url)
 
+#%%
+
+print(ret)
+
+# %%
